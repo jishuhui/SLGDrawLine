@@ -5,8 +5,8 @@ using UnityEngine;
 public class Test : MonoBehaviour {
     private Stack<int> m_lineHandles = new Stack<int>();
 	void Start () {
-        m_lineHandles.Push(LineManager.Instance.DrawLine(new Vector3(-10,0,0),new Vector3(10,0,0),Color.green,1));
-        m_lineHandles.Push(LineManager.Instance.DrawLine(new Vector3(0, 0, -10), new Vector3(0, 0, 10), Color.green, 1));
+        m_lineHandles.Push(LineManager.Instance.DrawLine(new Vector3(-10,0,0),new Vector3(10,0,0),Color.red,1));
+        m_lineHandles.Push(LineManager.Instance.DrawLine(new Vector3(0, 0, -10), new Vector3(0, 0, 10), Color.blue, 1));
         m_lineHandles.Push(LineManager.Instance.DrawLine(new Vector3(0, -10, 0), new Vector3(0, 10, 0), Color.green, 1));
     }
 	

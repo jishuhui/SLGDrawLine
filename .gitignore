@@ -1,6 +1,5 @@
-# Temp/
-# Library/
+Temp/
+Library/
 # *.meta
 .idea/
-Library/
-
+# Library/
