@@ -1,3 +1,6 @@
 # Temp/
 # Library/
 # *.meta
+.idea/
+Library/
+
